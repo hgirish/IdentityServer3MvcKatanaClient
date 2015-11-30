@@ -18,7 +18,7 @@ namespace KatanaClient
     {
         public void Configuration(IAppBuilder app)
         {
-            string baseAddress = "https://localhost/core";
+            string baseAddress = "https://localhost:44333/core";
             string tokenEndpoint = baseAddress + "/connect/token";
             string userInfoEndpoint = baseAddress + "/connect/userinfo";
             string clientAddress = "https://localhost:44302/";
